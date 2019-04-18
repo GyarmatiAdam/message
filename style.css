@@ -1,0 +1,46 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gold;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background: hotpink;
+    flex: 0 0 80%;
+}
+button{
+    display: block;
+    font-size: 2rem;
+    margin: 1rem auto;
+    color: bisque;
+    background: darkgreen;
+    border-radius: 6px;
+    border: none;
+}
+button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+input[type=text]{
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    border: 3px solid black;
+    outline: none;
+}
+input[type=text]:focus{
+    box-shadow: 0 0 10px slateblue;
+}
+#message{
+    margin: 0.5rem 0;
+    color: black;
+}
