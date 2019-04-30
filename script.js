@@ -6,7 +6,8 @@ sendBtn.addEventListener('click', sendMsg)
 
 function sendMsg(){
     let content = messageIn.value;
-    //console.log(content);
+
+    /** If input box empty, throws an alert box, otherwise display the message */
     if(content === ''){
         alert('Enter a value')
     }
